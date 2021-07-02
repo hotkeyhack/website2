@@ -1,0 +1,41 @@
+* {
+    background-color: rgb(85, 71, 177);
+    font-size: 30px;
+}
+
+h1,
+h2,
+p {
+    color: violet;
+}
+
+h1 {
+    text-align: center;
+}
+
+.biop {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column
+}
+
+.flexbox {
+    display: flex;
+    min-height: 10vh;
+    justify-content: space-around;
+}
+
+.flexitem {
+    font-size: 80px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    height: 100px;
+}
+
+a:hover {
+    color: coral;
+}
+
+a {
+    text-decoration: none;
+}
